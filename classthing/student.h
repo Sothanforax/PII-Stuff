@@ -16,7 +16,7 @@ class Student{
 		gend = input;
 	}
 
-	int access_gender(){
+	char access_gender(){
 		return gend;
 	}
 

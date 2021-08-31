@@ -45,9 +45,9 @@ int main(){
 	s0.set_year(2003);
 	s1.set_year(2008);
 
-	std::cout << "\nStudent 1:\n" << "Name: " << s0.access_name('f') << " " << s0.access_name('l') << std::endl << "Age: " << s0.calc_age() << "\nBirth year: " << s0.access_year('b') << std::endl;
+	std::cout << "\nStudent 1:\n" << "Name: " << s0.access_name('f') << " " << s0.access_name('l') << std::endl << "Gender: " << s0.access_gender() << std::endl << "Age: " << s0.calc_age() << "\nBirth year: " << s0.access_year('b') << std::endl;
 
-	std::cout << "\nStudent 2:\n" << "Name: " << s1.access_name('f') << " " << s1.access_name('l') << std::endl << "Age: " << s1.calc_age() << "\nBirth year: " << s1.access_year('b') << std::endl;
+	std::cout << "\nStudent 2:\n" << "Name: " << s1.access_name('f') << " " << s1.access_name('l') << std::endl << "Gender: " << s1.access_gender() << std::endl << "Age: " << s1.calc_age() << "\nBirth year: " << s1.access_year('b') << std::endl;
 
-	std::cout << "\nStudent 3:\n" << "Name: " << s2.access_name('f') << " " << s2.access_name('l') << std::endl << "Age: " << s2.calc_age() << "\nBirth year: " << s2.access_year('b') << std::endl;
+	std::cout << "\nStudent 3:\n" << "Name: " << s2.access_name('f') << " " << s2.access_name('l') << std::endl << "Gender: " << s2.access_gender() << std::endl << "Age: " << s2.calc_age() << "\nBirth year: " << s2.access_year('b') << std::endl;
 }
